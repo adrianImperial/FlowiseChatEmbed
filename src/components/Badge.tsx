@@ -44,17 +44,17 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      Imperial College FoM
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={'https://www.imperial.ac.uk/medicine/fom-staff/digital-education-office/workstreams/xr-and-innovation/'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Flowise</span>
+        <span>Adrian</span>
       </a>
     </span>
   );
