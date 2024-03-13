@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Imperial College FoM
+      Imperial College
       <a
         ref={liteBadge}
         href={'https://www.imperial.ac.uk/medicine/fom-staff/digital-education-office/workstreams/xr-and-innovation/'}
@@ -54,7 +54,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span />
+       <span>FoM</span>
       </a>
     </span>
   );
